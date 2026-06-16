@@ -17,6 +17,7 @@ const SIGN_IMAGES = {
   'L': '/static/signs/cropped/L3.png',
   'M': '/static/signs/cropped/M4.png',
   'N': '/static/signs/cropped/N4.png',
+  'Ñ': '/static/signs/cropped/NTILDE.png',
   'O': '/static/signs/cropped/O4.png',
   'P': '/static/signs/cropped/P4.png',
   'Q': '/static/signs/cropped/Q4.png',
@@ -26,9 +27,9 @@ const SIGN_IMAGES = {
   'U': '/static/signs/cropped/U4.png',
   'V': '/static/signs/cropped/V4.png',
   'W': '/static/signs/cropped/W4.png',
-  'X': '/static/signs/cropped/X4.png',
-  'Y': '/static/signs/cropped/Y4.png',
-  'Z': '/static/signs/cropped/Z4.png',
+  'X': '/static/signs/cropped/X_REF.png',
+  'Y': '/static/signs/cropped/Y_REF.png',
+  'Z': '/static/signs/cropped/Z_REF.png',
 };
 
 function getSignImagePath(signId) {

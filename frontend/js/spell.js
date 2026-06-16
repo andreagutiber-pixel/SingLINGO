@@ -517,6 +517,22 @@ class SpellMode {
     const targetEl = document.getElementById("spell-target-letter");
     if (targetEl) targetEl.textContent = target;
 
+    const targetImage = document.getElementById("spell-target-image");
+    const imgPath = window.getSignImagePath ? window.getSignImagePath(target) : null;
+    if (targetImage) {
+      if (imgPath) {
+        targetImage.src = imgPath;
+        targetImage.alt = `Seña ${target}`;
+        targetImage.classList.remove("hidden");
+        targetEl?.classList.add("hidden");
+      } else {
+        targetImage.removeAttribute("src");
+        targetImage.alt = "";
+        targetImage.classList.add("hidden");
+        targetEl?.classList.remove("hidden");
+      }
+    }
+
     const nameEl = document.getElementById("spell-target-name");
     if (nameEl) {
       const isMotion = MOTION_SIGNS.has(target);
