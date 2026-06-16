@@ -50,5 +50,5 @@ Cuando el usuario concede permiso de camara:
 ## Nota de privacidad
 
 El flujo de practica procesa el video en el navegador. El mensaje visible al
-usuario aclara que SingLINGO usa la camara solo para reconocer manos y que el
+usuario aclara que SignLINGO usa la camara solo para reconocer manos y que el
 video no se guarda.

@@ -1,5 +1,5 @@
 ﻿/**
- * app.js — Controlador principal SingLINGO (rediseño)
+ * app.js — Controlador principal SignLINGO (rediseño)
  */
 
 const SECTIONS = ["learn", "practice", "spell", "train"];

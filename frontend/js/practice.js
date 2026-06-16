@@ -306,7 +306,7 @@ class PracticeMode {
 
     this._showCameraPrompt(
       "Permite la cámara",
-      "SingLINGO usa la cámara solo para reconocer tus manos durante la práctica. El video no se guarda.",
+      "SignLINGO usa la cámara solo para reconocer tus manos durante la práctica. El video no se guarda.",
       true
     );
     await this.mp.startCamera(this.videoEl);
