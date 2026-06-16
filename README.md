@@ -1,30 +1,25 @@
-# SignLingo - Aprendizaje de Lengua de Senas con IA
-
-Proyecto final de Programacion Avanzada - Universidad de La Guajira  
-Docente: Eduardo Sierra  
-Periodo: 2026-I  
-Entrega: 16 de junio de 2026
+# SignLingo - Aprendizaje de Lengua de Señas con IA
 
 ## Descripcion
 
-SignLingo es una aplicacion web en Python para practicar lengua de senas con apoyo de vision por computadora e inteligencia artificial. La aplicacion usa la camara del navegador para detectar la mano del usuario, enviar los puntos detectados al backend y comparar la sena realizada con modelos entrenados.
+SignLingo es una aplicacion web en Python para practicar lengua de señas con apoyo de vision por computadora e inteligencia artificial. La aplicacion usa la camara del navegador para detectar la mano del usuario, enviar los puntos detectados al backend y comparar la seña realizada con modelos entrenados.
 
 El proyecto busca apoyar a estudiantes y personas interesadas en aprender senas basicas mediante practica visual, retroalimentacion inmediata y seguimiento de progreso.
 
 ## Problema que resuelve
 
-Aprender lengua de senas requiere practicar la forma correcta de cada gesto y recibir retroalimentacion. Muchas personas no tienen un instructor disponible todo el tiempo. SignLingo ofrece una herramienta interactiva que permite practicar senas desde el navegador y recibir una prediccion automatica en tiempo real.
+Aprender lengua de señas requiere practicar la forma correcta de cada gesto y recibir retroalimentacion. Muchas personas no tienen un instructor disponible todo el tiempo. SignLingo ofrece una herramienta interactiva que permite practicar señas desde el navegador y recibir una prediccion automatica en tiempo real.
 
 ## Funcionalidades principales
 
-- Aplicacion web con interfaz para aprender y practicar senas.
+- Aplicacion web con interfaz para aprender y practicar señas.
 - Backend con FastAPI y documentacion Swagger en `/api/docs`.
-- Prediccion de senas usando landmarks de la mano enviados desde el navegador.
-- Soporte para LSC, ASL y BSL.
+- Prediccion de señas usando landmarks de la mano enviados desde el navegador.
+- Soporte para LSC.
 - WebSocket para prediccion en tiempo real.
 - Registro de progreso en base de datos SQLite.
 - Captura de muestras reales para mejorar el conjunto de datos.
-- Visualizacion de confianza, sena detectada y retroalimentacion de la postura.
+- Visualizacion de confianza, seña detectada y retroalimentacion de la postura.
 
 ## Tecnologias utilizadas
 
@@ -119,15 +114,19 @@ Durante el desarrollo se usaron herramientas de inteligencia artificial como apo
 - Apoyar la escritura de funciones del backend y del frontend.
 - Analizar el documento de requisitos del proyecto final.
 
-El grupo reviso y adapto el codigo generado o sugerido. Cada integrante debe poder explicar durante la sustentacion la parte del proyecto que trabajo y el funcionamiento general de la aplicacion.
+## Herramientas de IA utilizadas
+- Replit
+- Codex
+
+El grupo reviso y adapto el codigo generado o sugerido. Cada integrante puede explicar durante la sustentacion la parte del proyecto que trabajo y el funcionamiento general de la aplicacion.
 
 ## Integrantes
 
 Completar antes de entregar:
 
-- Integrante 1:
-- Integrante 2:
-- Integrante 3:
+- Integrante 1: Jose Carlos Barreto Toro
+- Integrante 2: Maria Jose Cujia Gamez
+- Integrante 3:Sally Andrea Gutiérrez Bermúdez
 
 ## Notas para la sustentacion
 
