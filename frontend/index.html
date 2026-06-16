@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SingLINGO — Domina el lenguaje de señas</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body { background: #081825; color: #F5F5F5; }
+
+    .geo-decoration {
+      position: absolute;
+      right: 3%;
+      top: 47%;
+      transform: translateY(-50%);
+      width: clamp(390px, 31vw, 520px);
+      height: clamp(390px, 31vw, 520px);
+      pointer-events: none;
+      opacity: 0.68;
+    }
+    .geo-decoration {
+      filter: drop-shadow(0 0 18px rgba(170,202,223,0.12));
+    }
+    .geo-decoration svg { width: 100%; height: 100%; }
+    .geo-frame-a {
+      transform-box: view-box;
+      transform-origin: 170px 170px;
+      animation: heroFrameSpinA 8s linear infinite;
+    }
+    .geo-frame-b {
+      transform-box: view-box;
+      transform-origin: 170px 170px;
+      animation: heroFrameSpinB 8s linear infinite reverse;
+    }
+    @keyframes heroFrameSpinA {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes heroFrameSpinB {
+      from { transform: rotate(45deg); }
+      to { transform: rotate(405deg); }
+    }
+
+    /* ── SingLINGO glow ── */
+    @keyframes glowPulse {
+      0%, 100% {
+        text-shadow:
+          0 0 8px  rgba(170,202,223,0.4),
+          0 0 20px rgba(34,86,136,0.3),
+          0 0 40px rgba(170,202,223,0.15);
+        color: #AACADF;
+      }
+      50% {
+        text-shadow:
+          0 0 16px rgba(170,202,223,0.9),
+          0 0 40px rgba(34,86,136,0.7),
+          0 0 70px rgba(170,202,223,0.45),
+          0 0 100px rgba(34,86,136,0.3);
+        color: #d4eaf7;
+      }
+    }
+
+    .landing-title .glow-lingo {
+      animation: glowPulse 2.8s ease-in-out infinite;
+      display: inline-block;
+    }
+
+    footer a { color: var(--blue-light); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── Floating animated boxes ── */
+    .float-boxes-container {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .landing-hero-content, .geo-decoration { position: relative; z-index: 1; }
+
+    .fbox {
+      position: absolute;
+      border: 1.5px solid rgba(170,202,223,0.25);
+      border-radius: 3px;
+      animation: floatBox linear infinite;
+    }
+
+    @keyframes floatBox {
+      0%   { transform: translateY(0px) rotate(0deg); opacity: 0; }
+      5%   { opacity: 1; }
+      90%  { opacity: 0.7; }
+      100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+    }
+
+    .fbox-1  { width:18px; height:18px; left:5%;   bottom:-20px; animation-duration:14s; animation-delay:0s;   border-color:rgba(170,202,223,0.4); }
+    .fbox-2  { width:30px; height:30px; left:12%;  bottom:-30px; animation-duration:18s; animation-delay:2s;   border-color:rgba(103,140,169,0.35); }
+    .fbox-3  { width:10px; height:10px; left:22%;  bottom:-10px; animation-duration:12s; animation-delay:4s;   border-color:rgba(170,202,223,0.5); background:rgba(170,202,223,0.07); }
+    .fbox-4  { width:22px; height:22px; left:32%;  bottom:-22px; animation-duration:20s; animation-delay:1s;   border-color:rgba(34,86,136,0.45); }
+    .fbox-5  { width:14px; height:14px; left:42%;  bottom:-14px; animation-duration:11s; animation-delay:6s;   border-color:rgba(170,202,223,0.3); }
+    .fbox-6  { width:38px; height:38px; left:55%;  bottom:-38px; animation-duration:22s; animation-delay:0.5s; border-color:rgba(103,140,169,0.25); }
+    .fbox-7  { width:12px; height:12px; left:65%;  bottom:-12px; animation-duration:13s; animation-delay:3s;   border-color:rgba(170,202,223,0.45); background:rgba(34,86,136,0.08); }
+    .fbox-8  { width:26px; height:26px; left:75%;  bottom:-26px; animation-duration:17s; animation-delay:5s;   border-color:rgba(34,86,136,0.4); }
+    .fbox-9  { width:8px;  height:8px;  left:85%;  bottom:-8px;  animation-duration:10s; animation-delay:7s;   border-color:rgba(170,202,223,0.6); background:rgba(170,202,223,0.12); }
+    .fbox-10 { width:44px; height:44px; left:90%;  bottom:-44px; animation-duration:25s; animation-delay:1.5s; border-color:rgba(103,140,169,0.2); }
+    .fbox-11 { width:16px; height:16px; left:8%;   bottom:-16px; animation-duration:15s; animation-delay:8s;   border-color:rgba(170,202,223,0.35); }
+    .fbox-12 { width:20px; height:20px; left:18%;  bottom:-20px; animation-duration:19s; animation-delay:9s;   border-color:rgba(34,86,136,0.3); background:rgba(34,86,136,0.05); }
+    .fbox-13 { width:9px;  height:9px;  left:38%;  bottom:-9px;  animation-duration:9s;  animation-delay:2.5s; border-color:rgba(170,202,223,0.55); }
+    .fbox-14 { width:32px; height:32px; left:50%;  bottom:-32px; animation-duration:21s; animation-delay:4.5s; border-color:rgba(103,140,169,0.3); }
+    .fbox-15 { width:11px; height:11px; left:60%;  bottom:-11px; animation-duration:12s; animation-delay:10s;  border-color:rgba(170,202,223,0.4); background:rgba(170,202,223,0.09); }
+    .fbox-16 { width:24px; height:24px; left:70%;  bottom:-24px; animation-duration:16s; animation-delay:11s;  border-color:rgba(34,86,136,0.38); }
+    .fbox-17 { width:36px; height:36px; left:2%;   bottom:-36px; animation-duration:23s; animation-delay:3.5s; border-color:rgba(103,140,169,0.22); }
+    .fbox-18 { width:15px; height:15px; left:95%;  bottom:-15px; animation-duration:14s; animation-delay:6.5s; border-color:rgba(170,202,223,0.5); }
+  </style>
+</head>
+<body class="landing">
+
+<!-- Nav -->
+<nav>
+  <a href="/" class="nav-logo">SingLINGO</a>
+  <div class="nav-links">
+    <a href="/" class="nav-btn active">Inicio</a>
+    <a href="/app" class="nav-btn">Biblioteca</a>
+    <a href="/app" class="nav-btn">Practica</a>
+    <a href="/app" class="nav-btn">Deletreo</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="container" style="position:relative; min-height:calc(100vh - 56px); display:flex; align-items:center;">
+  <div class="landing-hero-content">
+    <h1 class="landing-title">Sing<span class="glow-lingo">LINGO</span></h1>
+    <p class="landing-subtitle">Domina el lenguaje de señas.</p>
+    <div class="landing-cta">
+      <a href="/app" class="btn btn-primary" style="padding:0.8rem 1.8rem; font-size:0.9rem;">
+        Ponte a prueba
+      </a>
+      <a href="#como" class="btn btn-outline-light" style="padding:0.8rem 1.8rem; font-size:0.9rem;">
+        Ver tutorial
+      </a>
+    </div>
+    <div class="hero-stats" style="margin-top:2.5rem;">
+      <div>
+        <div class="hero-stat-value" id="stat-signs">56+</div>
+        <div class="hero-stat-label">Señas en biblioteca</div>
+      </div>
+      <div>
+        <div class="hero-stat-value">LSC</div>
+        <div class="hero-stat-label">Lengua de señas colombiana</div>
+      </div>
+      <div>
+        <div class="hero-stat-value">30fps</div>
+        <div class="hero-stat-label">Detección en tiempo real</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="geo-decoration">
+    <svg viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect class="geo-frame-a" x="58" y="58" width="224" height="224" rx="1"
+        stroke="#E8EEF2" stroke-width="1.25"
+        fill="none"/>
+      <rect class="geo-frame-b" x="66" y="66" width="208" height="208" rx="1"
+        stroke="#AACADF" stroke-width="1"
+        fill="none"/>
+    </svg>
+  </div>
+
+  <!-- Floating animated boxes -->
+  <div class="float-boxes-container" aria-hidden="true">
+    <div class="fbox fbox-1"></div>
+    <div class="fbox fbox-2"></div>
+    <div class="fbox fbox-3"></div>
+    <div class="fbox fbox-4"></div>
+    <div class="fbox fbox-5"></div>
+    <div class="fbox fbox-6"></div>
+    <div class="fbox fbox-7"></div>
+    <div class="fbox fbox-8"></div>
+    <div class="fbox fbox-9"></div>
+    <div class="fbox fbox-10"></div>
+    <div class="fbox fbox-11"></div>
+    <div class="fbox fbox-12"></div>
+    <div class="fbox fbox-13"></div>
+    <div class="fbox fbox-14"></div>
+    <div class="fbox fbox-15"></div>
+    <div class="fbox fbox-16"></div>
+    <div class="fbox fbox-17"></div>
+    <div class="fbox fbox-18"></div>
+  </div>
+</section>
+
+<!-- Cómo funciona -->
+<section class="how-section container reveal" id="como">
+  <h2 style="font-family:'Martian Mono',monospace; font-size:1.8rem; color:#F5F5F5; margin-bottom:0.5rem;">
+    Cómo funciona
+  </h2>
+  <p style="font-family:'Martian Mono',monospace; font-size:0.82rem; color:rgba(245,245,245,0.5);">
+    Todo funciona en tu navegador — tu video nunca sale del dispositivo.
+  </p>
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-number">1</div>
+      <div class="step-title">Permitir Cámara</div>
+      <div class="step-desc">Concede acceso a la cámara. Tu video nunca sale del dispositivo.</div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">2</div>
+      <div class="step-title">Mano Detectada</div>
+      <div class="step-desc">MediaPipe encuentra 21 puntos clave en tu mano en tiempo real.</div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">3</div>
+      <div class="step-title">IA Clasifica</div>
+      <div class="step-desc">Tus landmarks se comparan con el modelo de señas entrenado.</div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">4</div>
+      <div class="step-title">Feedback Instantáneo</div>
+      <div class="step-desc">Ve tu puntaje e imita la posición de referencia para acertar.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="container reveal" style="padding:4rem 0; text-align:center;">
+  <h2 style="font-family:'Martian Mono',monospace; font-size:2rem; color:#F5F5F5; margin-bottom:1rem;">
+    ¿Listo para empezar?
+  </h2>
+  <p style="font-family:'Martian Mono',monospace; font-size:0.85rem; color:rgba(245,245,245,0.5); margin-bottom:2rem;">
+    Es gratis, rápido y funciona directamente en tu navegador.
+  </p>
+  <a href="/app" class="btn btn-primary" style="font-size:0.95rem; padding:0.9rem 2.5rem;">
+    Abrir SingLINGO
+  </a>
+</section>
+
+<footer class="container">
+  <p>SingLINGO — Proyecto Final de Curso · Python + FastAPI + MediaPipe + scikit-learn</p>
+  <p style="margin-top:0.35rem">API en <a href="/api/docs">/api/docs</a></p>
+</footer>
+
+<script>
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("visible"); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll(".reveal").forEach(el => obs.observe(el));
+
+  fetch("/api/health").then(r => r.json()).then(data => {
+    const el = document.getElementById("stat-signs");
+    if (el && data.total_signs) el.textContent = data.total_signs + "+";
+  }).catch(() => {});
+
+  const params = new URLSearchParams(location.search);
+  if (params.get("country")) sessionStorage.setItem("startCountry", params.get("country"));
+</script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+{
+  "country": "asl",
+  "language": "American Sign Language",
+  "flag": "🇺🇸",
+  "signs": [
+    {
+      "id": "A", "name": "Letter A", "emoji": "🤌", "category": "alphabet", "difficulty": 1,
+      "description": "Make a fist with your dominant hand. Rest your thumb against the side of your index finger, pointing upward.",
+      "tips": ["Keep all fingers tightly closed", "Thumb rests on side of index, not on top", "Knuckles should be visible"],
+      "finger_states": [true, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.4, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.5, "spread": 0.2, "thumb_horiz": 0.7}
+    },
+    {
+      "id": "B", "name": "Letter B", "emoji": "✋", "category": "alphabet", "difficulty": 1,
+      "description": "Hold your hand flat with fingers straight up and together. Tuck your thumb across your palm.",
+      "tips": ["Keep fingers straight and close together", "Thumb tucked into palm", "Palm facing outward"],
+      "finger_states": [false, true, true, true, true],
+      "feature_template": {"thumb_ext": 0.7, "index_ext": 2.0, "middle_ext": 2.0, "ring_ext": 2.0, "pinky_ext": 2.0, "pinch_dist": 1.2, "spread": 0.4, "thumb_horiz": 0.1}
+    },
+    {
+      "id": "C", "name": "Letter C", "emoji": "🫳", "category": "alphabet", "difficulty": 2,
+      "description": "Curve your hand into the shape of the letter C, with fingers curved and thumb opposing.",
+      "tips": ["All fingers curve together, not spread", "Think of holding a cup", "Thumb curves up to mirror fingers"],
+      "finger_states": [true, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.3, "index_ext": 1.3, "middle_ext": 1.3, "ring_ext": 1.2, "pinky_ext": 1.1, "pinch_dist": 0.8, "spread": 0.4, "thumb_horiz": 0.6}
+    },
+    {
+      "id": "D", "name": "Letter D", "emoji": "☝️", "category": "alphabet", "difficulty": 2,
+      "description": "Point index finger up while other fingers curl and touch the thumb tip.",
+      "tips": ["Index finger points straight up", "Thumb, middle, ring and pinky form a circle", "Keep wrist straight"],
+      "finger_states": [false, true, false, false, false],
+      "feature_template": {"thumb_ext": 0.9, "index_ext": 2.1, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.7, "spread": 0.3, "thumb_horiz": 0.2}
+    },
+    {
+      "id": "E", "name": "Letter E", "emoji": "🫴", "category": "alphabet", "difficulty": 3,
+      "description": "Bend all four fingers down so their tips touch the top of your palm. Thumb tucks underneath.",
+      "tips": ["Fingertips touch the base of the palm", "Different from a regular fist — fingers are bent at all joints", "Thumb rests under bent fingers"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 0.6, "index_ext": 0.7, "middle_ext": 0.7, "ring_ext": 0.7, "pinky_ext": 0.7, "pinch_dist": 0.4, "spread": 0.2, "thumb_horiz": 0.2}
+    },
+    {
+      "id": "F", "name": "Letter F", "emoji": "👌", "category": "alphabet", "difficulty": 2,
+      "description": "Touch index finger tip to thumb tip (OK shape). Hold middle, ring and pinky fingers straight up.",
+      "tips": ["Index and thumb form a perfect circle (OK sign)", "Other three fingers stand straight up", "Keep the circle tight"],
+      "finger_states": [true, false, true, true, true],
+      "feature_template": {"thumb_ext": 1.0, "index_ext": 0.8, "middle_ext": 1.9, "ring_ext": 1.9, "pinky_ext": 1.9, "pinch_dist": 0.15, "spread": 0.9, "thumb_horiz": 0.4}
+    },
+    {
+      "id": "G", "name": "Letter G", "emoji": "👆", "category": "alphabet", "difficulty": 2,
+      "description": "Point index finger and thumb horizontally to the side, like pointing at something sideways.",
+      "tips": ["Index and thumb point to the side (not up)", "Other fingers curl into palm", "Imagine pointing at something to your side"],
+      "finger_states": [true, true, false, false, false],
+      "feature_template": {"thumb_ext": 1.6, "index_ext": 1.8, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.8, "spread": 0.3, "thumb_horiz": 0.9}
+    },
+    {
+      "id": "H", "name": "Letter H", "emoji": "✌️", "category": "alphabet", "difficulty": 2,
+      "description": "Hold index and middle fingers extended horizontally side by side, pointing sideways.",
+      "tips": ["Two fingers point sideways together", "Thumb and other fingers curl", "Fingers are parallel and touching"],
+      "finger_states": [false, true, true, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 1.8, "middle_ext": 1.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.9, "spread": 0.25, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "I", "name": "Letter I", "emoji": "🤙", "category": "alphabet", "difficulty": 1,
+      "description": "Extend only your pinky finger upward while making a fist with the other fingers.",
+      "tips": ["Only pinky is up", "Keep other fingers in a fist", "Pinky should be straight, not curved"],
+      "finger_states": [false, false, false, false, true],
+      "feature_template": {"thumb_ext": 0.9, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 2.1, "pinch_dist": 0.6, "spread": 1.2, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "K", "name": "Letter K", "emoji": "✌️", "category": "alphabet", "difficulty": 3,
+      "description": "Extend index and middle fingers up. Place your thumb between them, pointing upward.",
+      "tips": ["Thumb goes between index and middle fingers", "All three (thumb, index, middle) point up", "Ring and pinky are closed"],
+      "finger_states": [true, true, true, false, false],
+      "feature_template": {"thumb_ext": 1.5, "index_ext": 2.0, "middle_ext": 1.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.4, "spread": 0.5, "thumb_horiz": 0.5}
+    },
+    {
+      "id": "L", "name": "Letter L", "emoji": "🤟", "category": "alphabet", "difficulty": 1,
+      "description": "Make an 'L' shape: index finger points up, thumb points outward to the side.",
+      "tips": ["Index finger perfectly vertical", "Thumb perfectly horizontal", "Forms a 90° angle like the letter L"],
+      "finger_states": [true, true, false, false, false],
+      "feature_template": {"thumb_ext": 1.7, "index_ext": 2.2, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 1.1, "spread": 0.4, "thumb_horiz": 1.2}
+    },
+    {
+      "id": "M", "name": "Letter M", "emoji": "✊", "category": "alphabet", "difficulty": 3,
+      "description": "Tuck your thumb under your closed fingers, with three fingers (index, middle, ring) folded over it.",
+      "tips": ["Thumb hides under the fingers", "Three fingers fold over thumb", "Similar to N but one more finger covers the thumb"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 0.5, "index_ext": 0.8, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.9, "pinch_dist": 0.3, "spread": 0.2, "thumb_horiz": 0.1}
+    },
+    {
+      "id": "N", "name": "Letter N", "emoji": "✊", "category": "alphabet", "difficulty": 3,
+      "description": "Tuck your thumb under two fingers (index and middle), which fold over the thumb.",
+      "tips": ["Only index and middle fold over thumb (not ring)", "Similar to M but with two fingers instead of three", "Thumb fully hidden"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 0.5, "index_ext": 0.75, "middle_ext": 0.75, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.25, "spread": 0.25, "thumb_horiz": 0.1}
+    },
+    {
+      "id": "O", "name": "Letter O", "emoji": "👌", "category": "alphabet", "difficulty": 2,
+      "description": "Curve all fingers and thumb to form a circle, like you're holding a ball.",
+      "tips": ["All fingertips meet the thumb tip", "Forms a perfect O shape", "Keep the circle round, not squished"],
+      "finger_states": [true, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.1, "index_ext": 1.1, "middle_ext": 1.1, "ring_ext": 1.0, "pinky_ext": 1.0, "pinch_dist": 0.2, "spread": 0.3, "thumb_horiz": 0.5}
+    },
+    {
+      "id": "R", "name": "Letter R", "emoji": "🤞", "category": "alphabet", "difficulty": 3,
+      "description": "Cross your index and middle fingers (like crossing fingers for luck), pointing upward.",
+      "tips": ["Index crosses over middle finger", "Both fingers point upward", "Other fingers and thumb curl down"],
+      "finger_states": [false, true, true, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 1.9, "middle_ext": 1.7, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.5, "spread": 0.15, "thumb_horiz": 0.2}
+    },
+    {
+      "id": "S", "name": "Letter S", "emoji": "✊", "category": "alphabet", "difficulty": 1,
+      "description": "Make a fist with your thumb wrapped over your curled fingers.",
+      "tips": ["Thumb wraps over the front of the fingers (not the side like A)", "Knuckles forward", "Thumb covers fingers 2 and 3 (index and middle)"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 0.8, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.2, "spread": 0.2, "thumb_horiz": 0.5}
+    },
+    {
+      "id": "U", "name": "Letter U", "emoji": "✌️", "category": "alphabet", "difficulty": 1,
+      "description": "Extend index and middle fingers straight up, held together side by side.",
+      "tips": ["Two fingers together pointing up (not spread)", "Thumb and other fingers curl down", "Fingers should touch or nearly touch"],
+      "finger_states": [false, true, true, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 2.0, "middle_ext": 2.0, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 1.0, "spread": 0.2, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "V", "name": "Letter V", "emoji": "✌️", "category": "alphabet", "difficulty": 1,
+      "description": "Extend index and middle fingers in a V shape (peace sign), spread apart.",
+      "tips": ["Spread fingers apart in a V", "Unlike U, these fingers are NOT touching", "Think of a peace sign"],
+      "finger_states": [false, true, true, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 2.0, "middle_ext": 2.0, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 1.0, "spread": 0.55, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "W", "name": "Letter W", "emoji": "🤟", "category": "alphabet", "difficulty": 2,
+      "description": "Extend three fingers (index, middle, ring) upward and spread apart. Pinky and thumb curl.",
+      "tips": ["Three fingers up and spread", "Pinky curls in", "Thumb tucks"],
+      "finger_states": [false, true, true, true, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 2.0, "middle_ext": 2.0, "ring_ext": 2.0, "pinky_ext": 0.8, "pinch_dist": 1.1, "spread": 0.7, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "X", "name": "Letter X", "emoji": "☝️", "category": "alphabet", "difficulty": 3,
+      "description": "Hook your index finger like a crooked finger, other fingers in a fist.",
+      "tips": ["Only index finger is out, but hooked/bent", "Like beckoning someone with one finger", "Don't fully extend the index"],
+      "finger_states": [false, true, false, false, false],
+      "feature_template": {"thumb_ext": 0.9, "index_ext": 1.3, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.6, "spread": 0.2, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "Y", "name": "Letter Y", "emoji": "🤙", "category": "alphabet", "difficulty": 1,
+      "description": "Extend thumb and pinky outward (shaka / hang loose sign), fold other fingers.",
+      "tips": ["Thumb and pinky both extend outward", "Index, middle and ring curl in", "Like a 'hang loose' surfer sign"],
+      "finger_states": [true, false, false, false, true],
+      "feature_template": {"thumb_ext": 1.8, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 2.1, "pinch_dist": 1.5, "spread": 1.5, "thumb_horiz": 1.0}
+    },
+    {
+      "id": "HELLO", "name": "Hello", "emoji": "👋", "category": "words", "difficulty": 1,
+      "description": "Open hand, palm out, fingers together. Bring hand to forehead and move outward.",
+      "tips": ["All fingers extended and together", "Palm faces outward (salute position)", "Move hand forward from forehead"],
+      "finger_states": [true, true, true, true, true],
+      "feature_template": {"thumb_ext": 1.5, "index_ext": 2.0, "middle_ext": 2.0, "ring_ext": 2.0, "pinky_ext": 2.0, "pinch_dist": 1.2, "spread": 0.6, "thumb_horiz": 0.4}
+    },
+    {
+      "id": "THANK_YOU", "name": "Thank You", "emoji": "🙏", "category": "words", "difficulty": 1,
+      "description": "Flat hand touches chin, then moves forward and down.",
+      "tips": ["Fingers flat and together", "Touch chin with fingertips", "Move hand forward and slightly down"],
+      "finger_states": [true, true, true, true, true],
+      "feature_template": {"thumb_ext": 1.4, "index_ext": 1.9, "middle_ext": 1.9, "ring_ext": 1.9, "pinky_ext": 1.9, "pinch_dist": 1.1, "spread": 0.5, "thumb_horiz": 0.5}
+    },
+    {
+      "id": "YES", "name": "Yes", "emoji": "✅", "category": "words", "difficulty": 1,
+      "description": "Make a fist and nod it up and down (like a head nod).",
+      "tips": ["Closed fist", "Nod the fist up and down at the wrist", "Keep it small and controlled"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.3, "spread": 0.2, "thumb_horiz": 0.4}
+    },
+    {
+      "id": "NO", "name": "No", "emoji": "❌", "category": "words", "difficulty": 1,
+      "description": "Extend index and middle fingers, then snap them to touch the thumb (like a beak closing).",
+      "tips": ["Start with two fingers and thumb open", "Snap index and middle to thumb", "Do this twice for emphasis"],
+      "finger_states": [false, true, true, false, false],
+      "feature_template": {"thumb_ext": 1.0, "index_ext": 1.8, "middle_ext": 1.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.8, "spread": 0.3, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "ILY", "name": "I Love You", "emoji": "🤟", "category": "words", "difficulty": 2,
+      "description": "Extend thumb, index finger, and pinky at the same time (ILY hand shape).",
+      "tips": ["Thumb + index + pinky all extended", "Middle and ring fingers fold down", "This is the iconic ILY hand 🤟"],
+      "finger_states": [true, true, false, false, true],
+      "feature_template": {"thumb_ext": 1.7, "index_ext": 2.0, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 2.0, "pinch_dist": 1.4, "spread": 1.4, "thumb_horiz": 0.9}
+    }
+  ]
+}

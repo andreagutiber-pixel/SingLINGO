@@ -1,0 +1,112 @@
+{
+  "country": "bsl",
+  "language": "British Sign Language",
+  "flag": "🇬🇧",
+  "signs": [
+    {
+      "id": "HELLO_BSL", "name": "Hello", "emoji": "👋", "category": "greetings", "difficulty": 1,
+      "description": "Open hand with palm facing outward near the forehead, wave side to side.",
+      "tips": ["Flat open hand", "Palm faces outward", "Gentle side-to-side wave near forehead"],
+      "finger_states": [true, true, true, true, true],
+      "feature_template": {"thumb_ext": 1.5, "index_ext": 2.0, "middle_ext": 2.0, "ring_ext": 2.0, "pinky_ext": 2.0, "pinch_dist": 1.2, "spread": 0.7, "thumb_horiz": 0.5}
+    },
+    {
+      "id": "THANKYOU_BSL", "name": "Thank You", "emoji": "🙏", "category": "greetings", "difficulty": 1,
+      "description": "Touch lips with flat hand, then move hand forward and downward.",
+      "tips": ["Flat hand touches lips", "Move outward from face", "Fingers all extended together"],
+      "finger_states": [true, true, true, true, true],
+      "feature_template": {"thumb_ext": 1.4, "index_ext": 1.9, "middle_ext": 1.9, "ring_ext": 1.9, "pinky_ext": 1.9, "pinch_dist": 1.1, "spread": 0.5, "thumb_horiz": 0.5}
+    },
+    {
+      "id": "PLEASE_BSL", "name": "Please", "emoji": "🤲", "category": "greetings", "difficulty": 1,
+      "description": "Hands together (prayer position) rocking back and forth slightly.",
+      "tips": ["Both palms together", "Gentle rocking movement", "Fingertips point away from body"],
+      "finger_states": [true, true, true, true, true],
+      "feature_template": {"thumb_ext": 1.3, "index_ext": 1.8, "middle_ext": 1.8, "ring_ext": 1.8, "pinky_ext": 1.8, "pinch_dist": 1.0, "spread": 0.4, "thumb_horiz": 0.4}
+    },
+    {
+      "id": "YES_BSL", "name": "Yes", "emoji": "✅", "category": "basic", "difficulty": 1,
+      "description": "Fist with thumb up, nodding up and down.",
+      "tips": ["Thumb up hand", "Nod the thumb up and down", "Knuckles face forward"],
+      "finger_states": [true, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.9, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.7, "spread": 0.3, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "NO_BSL", "name": "No", "emoji": "❌", "category": "basic", "difficulty": 1,
+      "description": "Index finger wags side to side (wagging finger gesture).",
+      "tips": ["Only index finger extended", "Wag it side to side", "Keep other fingers closed"],
+      "finger_states": [false, true, false, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 2.1, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.9, "spread": 0.2, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "SORRY_BSL", "name": "Sorry", "emoji": "😔", "category": "feelings", "difficulty": 2,
+      "description": "Rub the chest in a circular motion with a flat hand.",
+      "tips": ["Flat open hand on chest", "Circular rubbing motion", "Combine with sorry expression"],
+      "finger_states": [true, true, true, true, true],
+      "feature_template": {"thumb_ext": 1.3, "index_ext": 1.8, "middle_ext": 1.8, "ring_ext": 1.8, "pinky_ext": 1.8, "pinch_dist": 1.0, "spread": 0.5, "thumb_horiz": 0.4}
+    },
+    {
+      "id": "HELP_BSL", "name": "Help", "emoji": "🆘", "category": "basic", "difficulty": 2,
+      "description": "Thumbs up hand resting on open palm, moving upward together.",
+      "tips": ["One hand is a thumbs-up (thumb extended)", "Rests on the flat palm of the other hand", "Both hands move upward together"],
+      "finger_states": [true, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.9, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.7, "spread": 0.3, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "GOOD_BSL", "name": "Good", "emoji": "👍", "category": "basic", "difficulty": 1,
+      "description": "Thumbs up gesture.",
+      "tips": ["Classic thumbs up", "All other fingers closed in a fist", "Thumb points upward"],
+      "finger_states": [true, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.9, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.7, "spread": 0.3, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "BAD_BSL", "name": "Bad", "emoji": "👎", "category": "basic", "difficulty": 1,
+      "description": "Thumbs down gesture.",
+      "tips": ["Classic thumbs down", "All other fingers closed", "Thumb points downward"],
+      "finger_states": [true, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.9, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.7, "spread": 0.3, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "MORE_BSL", "name": "More", "emoji": "➕", "category": "basic", "difficulty": 2,
+      "description": "Fingertips of both hands touch repeatedly (pinch-tap gesture).",
+      "tips": ["All fingertips bunched together", "Like pinching something", "Tap both hands together a few times"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 0.9, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.2, "spread": 0.2, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "LOVE_BSL", "name": "Love", "emoji": "❤️", "category": "feelings", "difficulty": 2,
+      "description": "Cross both arms over the chest (hugging yourself).",
+      "tips": ["Arms crossed over chest", "Hands can be open or fists", "Express warmth in your face too"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 0.9, "middle_ext": 0.9, "ring_ext": 0.9, "pinky_ext": 0.9, "pinch_dist": 0.4, "spread": 0.3, "thumb_horiz": 0.3}
+    },
+    {
+      "id": "EAT_BSL", "name": "Eat / Food", "emoji": "🍽️", "category": "nouns", "difficulty": 2,
+      "description": "Fingertips brought together (like holding food) and tapped to lips.",
+      "tips": ["Fingertips together pointing to lips", "Like bringing food to your mouth", "Move toward mouth twice"],
+      "finger_states": [false, false, false, false, false],
+      "feature_template": {"thumb_ext": 1.0, "index_ext": 1.1, "middle_ext": 1.1, "ring_ext": 1.0, "pinky_ext": 0.9, "pinch_dist": 0.2, "spread": 0.3, "thumb_horiz": 0.4}
+    },
+    {
+      "id": "WATER_BSL", "name": "Water", "emoji": "💧", "category": "nouns", "difficulty": 2,
+      "description": "Flick the fingers of the dominant hand from closed to open near the chin.",
+      "tips": ["Start with all fingers closed", "Flick open near chin", "Like water dripping from your hand"],
+      "finger_states": [true, true, true, true, true],
+      "feature_template": {"thumb_ext": 1.5, "index_ext": 1.9, "middle_ext": 1.9, "ring_ext": 1.9, "pinky_ext": 1.9, "pinch_dist": 1.1, "spread": 0.6, "thumb_horiz": 0.4}
+    },
+    {
+      "id": "FAMILY_BSL", "name": "Family", "emoji": "👨‍👩‍👧‍👦", "category": "nouns", "difficulty": 3,
+      "description": "Index fingers point toward each other, then circle around to point at you and away.",
+      "tips": ["Two index fingers pointing inward to start", "Then circle outward to include others", "Represents the circle of family"],
+      "finger_states": [false, true, false, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 2.2, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.9, "spread": 0.2, "thumb_horiz": 0.2}
+    },
+    {
+      "id": "FRIEND_BSL", "name": "Friend", "emoji": "🤝", "category": "nouns", "difficulty": 2,
+      "description": "Hooking index fingers together, like two links in a chain.",
+      "tips": ["Index fingers of both hands hook together", "Like linking two rings", "Can wiggle slightly once hooked"],
+      "finger_states": [false, true, false, false, false],
+      "feature_template": {"thumb_ext": 0.8, "index_ext": 1.5, "middle_ext": 0.8, "ring_ext": 0.8, "pinky_ext": 0.8, "pinch_dist": 0.7, "spread": 0.2, "thumb_horiz": 0.3}
+    }
+  ]
+}

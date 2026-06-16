@@ -1,0 +1,1647 @@
+{
+  "country": "lsc",
+  "language": "Lengua de Señas Colombiana",
+  "flag": "🇨🇴",
+  "signs": [
+    {
+      "id": "A",
+      "name": "Letra A",
+      "emoji": "✊",
+      "category": "alphabet",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Puño cerrado, pulgar al costado del índice apuntando hacia arriba.",
+      "tips": [
+        "Todos los dedos bien cerrados en puño",
+        "Pulgar al lado del índice (no encima)",
+        "Los nudillos deben verse de frente"
+      ],
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.4,
+        "index_ext": 0.9,
+        "middle_ext": 0.9,
+        "ring_ext": 0.9,
+        "pinky_ext": 0.9,
+        "pinch_dist": 0.55,
+        "spread": 0.2,
+        "thumb_horiz": 0.75
+      }
+    },
+    {
+      "id": "B",
+      "name": "Letra B",
+      "emoji": "✋",
+      "category": "alphabet",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Mano plana, cuatro dedos juntos hacia arriba, pulgar cruzado sobre la palma.",
+      "tips": [
+        "Cuatro dedos rectos y juntos",
+        "Pulgar cruzado hacia la palma",
+        "Palma mirando al frente"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.48,
+        "index_ext": 2.1,
+        "middle_ext": 2.1,
+        "ring_ext": 2.0,
+        "pinky_ext": 1.9,
+        "pinch_dist": 1.55,
+        "spread": 0.28,
+        "thumb_horiz": 0.42
+      }
+    },
+    {
+      "id": "C",
+      "name": "Letra C",
+      "emoji": "🫳",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Mano curvada formando la letra C. Todos los dedos curvados y el pulgar opuesto.",
+      "tips": [
+        "Dedos curvados juntos, como sostener una taza",
+        "El pulgar curva hacia los demás dedos",
+        "Forma abierta, no cerrada"
+      ],
+      "finger_states": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.35,
+        "index_ext": 1.35,
+        "middle_ext": 1.3,
+        "ring_ext": 1.25,
+        "pinky_ext": 1.15,
+        "pinch_dist": 0.75,
+        "spread": 0.4,
+        "thumb_horiz": 0.65
+      }
+    },
+    {
+      "id": "D",
+      "name": "Letra D",
+      "emoji": "☝️",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Índice apuntando hacia arriba, el resto de los dedos forman un círculo con el pulgar.",
+      "tips": [
+        "Índice completamente recto hacia arriba",
+        "Pulgar toca la punta del dedo medio",
+        "Muñeca derecha y firme"
+      ],
+      "finger_states": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.95,
+        "index_ext": 2.2,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.75,
+        "spread": 0.3,
+        "thumb_horiz": 0.25
+      }
+    },
+    {
+      "id": "E",
+      "name": "Letra E",
+      "emoji": "🫴",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Los cuatro dedos doblados hacia la palma, el pulgar metido debajo de ellos.",
+      "tips": [
+        "Las puntas de los dedos tocan la base de la palma",
+        "El pulgar queda por debajo de los dedos",
+        "Diferente al puño: los dedos están flexionados, no cerrados"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.5,
+        "index_ext": 0.75,
+        "middle_ext": 0.75,
+        "ring_ext": 0.75,
+        "pinky_ext": 0.75,
+        "pinch_dist": 0.35,
+        "spread": 0.2,
+        "thumb_horiz": 0.15
+      }
+    },
+    {
+      "id": "F",
+      "name": "Letra F",
+      "emoji": "👌",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Pulgar e índice forman un círculo perfecto (OK). Dedo medio, anular y meñique rectos.",
+      "tips": [
+        "Índice y pulgar forman un círculo cerrado",
+        "Los otros tres dedos completamente rectos y juntos",
+        "El círculo bien definido"
+      ],
+      "finger_states": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.05,
+        "index_ext": 0.85,
+        "middle_ext": 2.0,
+        "ring_ext": 2.0,
+        "pinky_ext": 2.0,
+        "pinch_dist": 0.12,
+        "spread": 0.95,
+        "thumb_horiz": 0.45
+      }
+    },
+    {
+      "id": "G",
+      "name": "Letra G",
+      "emoji": "👆",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Índice y pulgar horizontales apuntando al lado, como señalar algo de costado.",
+      "tips": [
+        "Índice y pulgar apuntando horizontalmente",
+        "Los demás dedos cerrados",
+        "Como señalar algo al lado tuyo"
+      ],
+      "finger_states": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.25,
+        "index_ext": 1.85,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 1.05,
+        "spread": 0.5,
+        "thumb_horiz": 0.85
+      },
+      "requires_motion": true,
+      "motion_type": "short_horizontal",
+      "requires_orientation": true
+    },
+    {
+      "id": "H",
+      "name": "Letra H",
+      "emoji": "✌️",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Índice y dedo medio extendidos juntos horizontalmente, los demás dedos cerrados.",
+      "tips": [
+        "Dos dedos juntos apuntando al lado",
+        "No los separes",
+        "El pulgar cerrado contra la palma"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.7,
+        "index_ext": 1.85,
+        "middle_ext": 1.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.95,
+        "spread": 0.28,
+        "thumb_horiz": 0.2
+      },
+      "requires_motion": true,
+      "motion_type": "short_horizontal",
+      "requires_orientation": true
+    },
+    {
+      "id": "I",
+      "name": "Letra I",
+      "emoji": "🤙",
+      "category": "alphabet",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Solo el meñique extendido hacia arriba, los demás dedos y el pulgar cerrados.",
+      "tips": [
+        "Solo el meñique arriba, bien recto",
+        "Puño bien cerrado con los otros dedos",
+        "El meñique apunta al techo"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.85,
+        "index_ext": 0.85,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 2.1,
+        "pinch_dist": 0.95,
+        "spread": 0.2,
+        "thumb_horiz": 0.3
+      }
+    },
+    {
+      "id": "J",
+      "name": "Letra J",
+      "emoji": "🤙",
+      "category": "alphabet",
+      "difficulty": 4,
+      "two_handed": false,
+      "description": "Como la I (meñique arriba), pero trazas una J en el aire con el meñique.",
+      "tips": [
+        "Forma la I primero: meñique arriba",
+        "Traza una J de arriba a abajo y hacia afuera",
+        "Movimiento fluido de muñeca"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.85,
+        "index_ext": 0.85,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 2.05,
+        "pinch_dist": 0.9,
+        "spread": 0.2,
+        "thumb_horiz": 0.28
+      },
+      "requires_motion": true,
+      "motion_type": "j_trace"
+    },
+    {
+      "id": "K",
+      "name": "Letra K",
+      "emoji": "✌️",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Índice y dedo medio en V abierta con el pulgar visible entre ellos.",
+      "tips": [
+        "Dedos en V bien abierta",
+        "Pulgar extendido entre índice y medio",
+        "Mano en posición vertical"
+      ],
+      "finger_states": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.05,
+        "index_ext": 2.05,
+        "middle_ext": 2.05,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.92,
+        "spread": 0.82,
+        "thumb_horiz": 0.55
+      }
+    },
+    {
+      "id": "L",
+      "name": "Letra L",
+      "emoji": "🤟",
+      "category": "alphabet",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Índice apuntando arriba y pulgar extendido al lado, formando una L.",
+      "tips": [
+        "Índice arriba y pulgar completamente extendido al lado",
+        "Los otros tres dedos bien cerrados",
+        "Ángulo de 90 grados entre índice y pulgar"
+      ],
+      "finger_states": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.6,
+        "index_ext": 2.15,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 1.25,
+        "spread": 0.65,
+        "thumb_horiz": 1.05
+      }
+    },
+    {
+      "id": "M",
+      "name": "Letra M",
+      "emoji": "✊",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Tres dedos (índice, medio y anular) doblados sobre el pulgar.",
+      "tips": [
+        "Tres dedos cubren el pulgar presionándolo",
+        "El meñique queda ligeramente separado",
+        "El pulgar queda oculto bajo los tres dedos"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.6,
+        "index_ext": 0.72,
+        "middle_ext": 0.72,
+        "ring_ext": 0.72,
+        "pinky_ext": 0.88,
+        "pinch_dist": 0.28,
+        "spread": 0.2,
+        "thumb_horiz": 0.28
+      }
+    },
+    {
+      "id": "N",
+      "name": "Letra N",
+      "emoji": "✊",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Índice y dedo medio doblados sobre el pulgar.",
+      "tips": [
+        "Dos dedos (índice y medio) cubren el pulgar",
+        "Anular y meñique cerrados pero no sobre el pulgar",
+        "Diferente de M por un dedo menos sobre el pulgar"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.62,
+        "index_ext": 0.73,
+        "middle_ext": 0.73,
+        "ring_ext": 0.82,
+        "pinky_ext": 0.9,
+        "pinch_dist": 0.3,
+        "spread": 0.2,
+        "thumb_horiz": 0.3
+      }
+    },
+    {
+      "id": "Ñ",
+      "name": "Letra Ñ",
+      "emoji": "🤏",
+      "category": "alphabet",
+      "difficulty": 4,
+      "two_handed": false,
+      "description": "Como la N pero con un pequeño movimiento ondulatorio de la muñeca.",
+      "tips": [
+        "Forma la N primero",
+        "Mueve la muñeca suavemente hacia afuera",
+        "Movimiento fluido y natural"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.63,
+        "index_ext": 0.74,
+        "middle_ext": 0.74,
+        "ring_ext": 0.83,
+        "pinky_ext": 0.91,
+        "pinch_dist": 0.31,
+        "spread": 0.21,
+        "thumb_horiz": 0.31
+      },
+      "requires_motion": true,
+      "motion_type": "tilde"
+    },
+    {
+      "id": "O",
+      "name": "Letra O",
+      "emoji": "👌",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Todos los dedos curvados hasta que las puntas toquen el pulgar, formando una O.",
+      "tips": [
+        "Todos los dedos tocan el pulgar formando una O",
+        "La apertura debe ser redonda",
+        "Sin dejar espacios entre los dedos"
+      ],
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.05,
+        "index_ext": 1.05,
+        "middle_ext": 1.05,
+        "ring_ext": 1.0,
+        "pinky_ext": 0.95,
+        "pinch_dist": 0.18,
+        "spread": 0.28,
+        "thumb_horiz": 0.52
+      }
+    },
+    {
+      "id": "P",
+      "name": "Letra P",
+      "emoji": "👇",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Índice y dedo medio apuntando hacia abajo, pulgar visible al lado.",
+      "tips": [
+        "Índice y medio apuntando hacia el suelo",
+        "El pulgar visible al lado del índice",
+        "Muñeca inclinada hacia abajo"
+      ],
+      "finger_states": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.15,
+        "index_ext": 1.75,
+        "middle_ext": 1.75,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.82,
+        "spread": 0.52,
+        "thumb_horiz": 0.62
+      }
+    },
+    {
+      "id": "Q",
+      "name": "Letra Q",
+      "emoji": "👇",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Índice y pulgar hacia abajo en pinza, como la G pero apuntando al suelo.",
+      "tips": [
+        "Pulgar e índice apuntando hacia abajo en pinza",
+        "Los otros tres dedos bien cerrados",
+        "Como señalar el piso con dos dedos"
+      ],
+      "finger_states": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.25,
+        "index_ext": 1.65,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.72,
+        "spread": 0.42,
+        "thumb_horiz": 0.72
+      }
+    },
+    {
+      "id": "R",
+      "name": "Letra R",
+      "emoji": "🤞",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Índice y dedo medio cruzados entre sí, apuntando hacia arriba.",
+      "tips": [
+        "Cruza el índice sobre el dedo medio",
+        "Los dos dedos rectos hacia arriba",
+        "Los demás dedos bien cerrados"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.72,
+        "index_ext": 2.0,
+        "middle_ext": 2.0,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.42,
+        "spread": 0.22,
+        "thumb_horiz": 0.22
+      }
+    },
+    {
+      "id": "S",
+      "name": "Letra S",
+      "emoji": "✊",
+      "category": "alphabet",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Puño cerrado con todos los dedos sobre el pulgar, palma hacia afuera.",
+      "tips": [
+        "Puño bien cerrado, pulgar ENCIMA de los dedos",
+        "Diferente de A: el pulgar cubre los dedos, no está al lado",
+        "Palma hacia el frente"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.9,
+        "index_ext": 0.85,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.42,
+        "spread": 0.2,
+        "thumb_horiz": 0.38
+      },
+      "requires_motion": true,
+      "motion_type": "shake"
+    },
+    {
+      "id": "T",
+      "name": "Letra T",
+      "emoji": "🤜",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "El pulgar asoma entre el índice y el dedo medio, puño cerrado a su alrededor.",
+      "tips": [
+        "Pulgar metido entre índice y medio (asoma la punta)",
+        "Puño cerrado alrededor del pulgar",
+        "El pulgar apunta hacia arriba entre los dos dedos"
+      ],
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.15,
+        "index_ext": 0.82,
+        "middle_ext": 0.82,
+        "ring_ext": 0.82,
+        "pinky_ext": 0.82,
+        "pinch_dist": 0.52,
+        "spread": 0.2,
+        "thumb_horiz": 0.52
+      }
+    },
+    {
+      "id": "U",
+      "name": "Letra U",
+      "emoji": "✌️",
+      "category": "alphabet",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Índice y dedo medio extendidos juntos hacia arriba. Los demás cerrados.",
+      "tips": [
+        "Dos dedos juntos apuntando arriba (paralelos)",
+        "No los separes — eso sería la V",
+        "El pulgar bien cerrado"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.72,
+        "index_ext": 2.05,
+        "middle_ext": 2.05,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.95,
+        "spread": 0.27,
+        "thumb_horiz": 0.2
+      }
+    },
+    {
+      "id": "V",
+      "name": "Letra V",
+      "emoji": "✌️",
+      "category": "alphabet",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Índice y dedo medio extendidos y separados en V (paz). Los demás cerrados.",
+      "tips": [
+        "Dedos en V bien abiertos y separados",
+        "Palma hacia el frente",
+        "Bien separados — diferente de U que van juntos"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.72,
+        "index_ext": 2.1,
+        "middle_ext": 2.1,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 1.05,
+        "spread": 0.82,
+        "thumb_horiz": 0.2
+      }
+    },
+    {
+      "id": "W",
+      "name": "Letra W",
+      "emoji": "🤟",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Índice, dedo medio y anular extendidos y separados, formando una W.",
+      "tips": [
+        "Tres dedos extendidos y bien separados entre sí",
+        "El pulgar y el meñique cerrados",
+        "Los tres dedos en abanico"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.72,
+        "index_ext": 2.05,
+        "middle_ext": 2.05,
+        "ring_ext": 2.05,
+        "pinky_ext": 0.85,
+        "pinch_dist": 1.15,
+        "spread": 1.05,
+        "thumb_horiz": 0.2
+      }
+    },
+    {
+      "id": "X",
+      "name": "Letra X",
+      "emoji": "☝️",
+      "category": "alphabet",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Solo el índice curvado en gancho, los demás dedos en puño.",
+      "tips": [
+        "Solo el índice doblado hacia la palma en forma de gancho",
+        "Los otros dedos en puño bien cerrado",
+        "Como hacer una garra con un solo dedo"
+      ],
+      "finger_states": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.85,
+        "index_ext": 1.25,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.52,
+        "spread": 0.2,
+        "thumb_horiz": 0.32
+      }
+    },
+    {
+      "id": "Y",
+      "name": "Letra Y",
+      "emoji": "🤙",
+      "category": "alphabet",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Pulgar y meñique extendidos, los tres dedos del medio cerrados.",
+      "tips": [
+        "Solo el pulgar y el meñique afuera",
+        "Los tres del medio bien cerrados",
+        "La forma de 'llamar por teléfono'"
+      ],
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 1.55,
+        "index_ext": 0.85,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 2.05,
+        "pinch_dist": 1.25,
+        "spread": 0.92,
+        "thumb_horiz": 0.82
+      }
+    },
+    {
+      "id": "Z",
+      "name": "Letra Z",
+      "emoji": "☝️",
+      "category": "alphabet",
+      "difficulty": 4,
+      "two_handed": false,
+      "description": "Con el índice extendido, dibuja una Z en el aire de izquierda a derecha.",
+      "tips": [
+        "Índice recto como lápiz, los demás cerrados",
+        "Traza la Z de izquierda a derecha",
+        "Tres trazos: horizontal, diagonal, horizontal"
+      ],
+      "finger_states": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "feature_template": {
+        "thumb_ext": 0.85,
+        "index_ext": 2.05,
+        "middle_ext": 0.85,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.92,
+        "spread": 0.3,
+        "thumb_horiz": 0.2
+      },
+      "requires_motion": true,
+      "motion_type": "z_trace"
+    },
+    {
+      "id": "HOLA",
+      "name": "Hola",
+      "emoji": "👋",
+      "category": "words",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Mano abierta (B) cerca de la sien, moviéndola hacia afuera como saludo.",
+      "tips": [
+        "Mano abierta con 4 dedos juntos",
+        "Posiciona la mano cerca de la sien/frente",
+        "Mueve suavemente hacia afuera"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "body_zone": "face",
+      "requires_pose": true,
+      "feature_template": {
+        "thumb_ext": 0.48,
+        "index_ext": 2.1,
+        "middle_ext": 2.1,
+        "ring_ext": 2.0,
+        "pinky_ext": 1.9,
+        "pinch_dist": 1.55,
+        "spread": 0.28,
+        "thumb_horiz": 0.42
+      }
+    },
+    {
+      "id": "GRACIAS",
+      "name": "Gracias",
+      "emoji": "🙏",
+      "category": "words",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Mano plana tocando la barbilla, luego moviéndola hacia adelante.",
+      "tips": [
+        "Mano plana, dedos juntos",
+        "Toca la barbilla con la punta de los dedos",
+        "Extiende la mano hacia adelante como lanzando un beso"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "body_zone": "chin",
+      "requires_pose": true,
+      "feature_template": {
+        "thumb_ext": 0.48,
+        "index_ext": 2.1,
+        "middle_ext": 2.1,
+        "ring_ext": 2.0,
+        "pinky_ext": 1.9,
+        "pinch_dist": 1.55,
+        "spread": 0.28,
+        "thumb_horiz": 0.42
+      }
+    },
+    {
+      "id": "POR_FAVOR",
+      "name": "Por favor",
+      "emoji": "🙌",
+      "category": "words",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Mano plana haciendo un movimiento circular sobre el pecho.",
+      "tips": [
+        "Mano plana sobre el pecho",
+        "Movimiento circular en el pecho",
+        "Como frotando suavemente el corazón"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "body_zone": "chest",
+      "requires_pose": true,
+      "feature_template": {
+        "thumb_ext": 0.48,
+        "index_ext": 2.1,
+        "middle_ext": 2.1,
+        "ring_ext": 2.0,
+        "pinky_ext": 1.9,
+        "pinch_dist": 1.55,
+        "spread": 0.28,
+        "thumb_horiz": 0.42
+      }
+    },
+    {
+      "id": "BIEN",
+      "name": "Bien / Bueno",
+      "emoji": "👍",
+      "category": "words",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Pulgar arriba — gesto universal de 'bien' o 'bueno'.",
+      "tips": [
+        "Solo el pulgar arriba, los demás dedos cerrados",
+        "Puede hacerse en cualquier posición",
+        "Pulgar completamente extendido"
+      ],
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "body_zone": "anywhere",
+      "requires_pose": false,
+      "feature_template": {
+        "thumb_ext": 1.6,
+        "index_ext": 0.9,
+        "middle_ext": 0.9,
+        "ring_ext": 0.9,
+        "pinky_ext": 0.9,
+        "pinch_dist": 0.7,
+        "spread": 0.2,
+        "thumb_horiz": 0.3
+      }
+    },
+    {
+      "id": "SI",
+      "name": "Sí",
+      "emoji": "✅",
+      "category": "words",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Puño cerrado (A) moviendo la muñeca de arriba a abajo como asintiendo.",
+      "tips": [
+        "Puño cerrado, pulgar al lado",
+        "Mueve la muñeca de arriba a abajo",
+        "Como asentir con la mano"
+      ],
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "body_zone": "anywhere",
+      "requires_pose": false,
+      "feature_template": {
+        "thumb_ext": 1.4,
+        "index_ext": 0.9,
+        "middle_ext": 0.9,
+        "ring_ext": 0.9,
+        "pinky_ext": 0.9,
+        "pinch_dist": 0.55,
+        "spread": 0.2,
+        "thumb_horiz": 0.75
+      }
+    },
+    {
+      "id": "NO",
+      "name": "No",
+      "emoji": "❌",
+      "category": "words",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Índice y dedo medio extendidos, agitándolos de lado a lado (no, no, no).",
+      "tips": [
+        "Índice y medio rectos juntos",
+        "Agita los dedos de lado a lado",
+        "Como decir no con los dedos"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "body_zone": "anywhere",
+      "requires_pose": false,
+      "feature_template": {
+        "thumb_ext": 0.72,
+        "index_ext": 2.05,
+        "middle_ext": 2.05,
+        "ring_ext": 0.85,
+        "pinky_ext": 0.85,
+        "pinch_dist": 0.95,
+        "spread": 0.27,
+        "thumb_horiz": 0.2
+      }
+    },
+    {
+      "id": "AMOR",
+      "name": "Amor / Te quiero",
+      "emoji": "❤️",
+      "category": "words",
+      "difficulty": 2,
+      "two_handed": true,
+      "description": "Ambas manos cruzadas sobre el pecho, como abrazándose a uno mismo.",
+      "tips": [
+        "Cruza ambas manos sobre el pecho",
+        "Las palmas tocan el pecho",
+        "Manos planas o ligeramente cerradas"
+      ],
+      "finger_states": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "finger_states_other": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "body_zone": "chest",
+      "requires_pose": true,
+      "feature_template": {
+        "thumb_ext": 0.48,
+        "index_ext": 2.0,
+        "middle_ext": 2.0,
+        "ring_ext": 2.0,
+        "pinky_ext": 1.9,
+        "pinch_dist": 1.5,
+        "spread": 0.3,
+        "thumb_horiz": 0.4
+      }
+    },
+    {
+      "id": "AYUDA",
+      "name": "Ayuda",
+      "emoji": "🤝",
+      "category": "words",
+      "difficulty": 3,
+      "two_handed": true,
+      "description": "Mano izquierda plana (palma hacia arriba), mano derecha en A encima siendo levantada.",
+      "tips": [
+        "Mano izquierda plana como bandeja",
+        "Mano derecha en puño (A) encima",
+        "La mano izquierda levanta la derecha hacia arriba"
+      ],
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "finger_states_other": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "body_zone": "chest",
+      "requires_pose": true,
+      "feature_template": {
+        "thumb_ext": 1.4,
+        "index_ext": 0.9,
+        "middle_ext": 0.9,
+        "ring_ext": 0.9,
+        "pinky_ext": 0.9,
+        "pinch_dist": 0.55,
+        "spread": 0.2,
+        "thumb_horiz": 0.75
+      }
+    },
+    {
+      "id": "LAPIZ",
+      "name": "Lápiz",
+      "emoji": "✏️",
+      "category": "words",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Seña entrenable para lápiz. Graba varias personas y ángulos para fijar la forma correcta en LSC.",
+      "tips": ["Mantén la mano dominante visible", "Graba la postura completa", "Usa el protocolo de participantes"],
+      "finger_states": [false, true, false, false, false],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "anywhere",
+      "requires_pose": false
+    },
+    {
+      "id": "ESFERO",
+      "name": "Esfero",
+      "emoji": "🖊️",
+      "category": "words",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Seña entrenable para esfero.",
+      "tips": ["Graba la postura base", "Mantén buena luz", "Evita tapar los dedos"],
+      "finger_states": [false, true, false, false, false],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "anywhere",
+      "requires_pose": false
+    },
+    {
+      "id": "HOJA",
+      "name": "Hoja",
+      "emoji": "📄",
+      "category": "words",
+      "difficulty": 2,
+      "two_handed": true,
+      "description": "Seña entrenable para hoja. Requiere verificar ambas manos si la expresión se realiza bimanual.",
+      "tips": ["Mantén ambas manos dentro del encuadre", "No tapes la segunda mano", "Graba desde distancia normal"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, true, true, true, true],
+      "body_zone": "anywhere",
+      "requires_pose": false
+    },
+    {
+      "id": "PERIODICO",
+      "name": "Periódico",
+      "emoji": "📰",
+      "category": "words",
+      "difficulty": 3,
+      "two_handed": true,
+      "description": "Seña entrenable para periódico.",
+      "tips": ["Graba ambas manos", "Incluye el movimiento si aplica", "Mantén el torso visible si toca el cuerpo"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, true, true, true, true],
+      "body_zone": "anywhere",
+      "requires_pose": false
+    },
+    {
+      "id": "BUENOS_DIAS",
+      "name": "Buenos días",
+      "emoji": "🌅",
+      "category": "basic",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba la expresión completa", "Incluye movimiento si lo haces", "Usa varias personas"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true
+    },
+    {
+      "id": "BUENAS_TARDES",
+      "name": "Buenas tardes",
+      "emoji": "🌤️",
+      "category": "basic",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba la expresión completa", "Mantén cara y hombros visibles", "Usa varias luces"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true
+    },
+    {
+      "id": "BUENAS_NOCHES",
+      "name": "Buenas noches",
+      "emoji": "🌙",
+      "category": "basic",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba la expresión completa", "Mantén el cuerpo visible", "Usa fondo claro"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true
+    },
+    {
+      "id": "COMO_ESTAS",
+      "name": "Cómo estás",
+      "emoji": "👋",
+      "category": "basic",
+      "difficulty": 2,
+      "two_handed": true,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba ambas manos si la haces con dos", "Haz el movimiento completo", "No mezcles personas en prueba"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, true, true, true, true],
+      "body_zone": "chest",
+      "requires_pose": true,
+      "requires_motion": true,
+      "motion_type": "custom_sequence"
+    },
+    {
+      "id": "MUCHO_GUSTO",
+      "name": "Mucho gusto",
+      "emoji": "🤝",
+      "category": "basic",
+      "difficulty": 3,
+      "two_handed": true,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba la secuencia completa", "Mantén ambas manos visibles", "Incluye torso"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, true, true, true, true],
+      "body_zone": "chest",
+      "requires_pose": true,
+      "requires_motion": true,
+      "motion_type": "custom_sequence"
+    },
+    {
+      "id": "PERDON",
+      "name": "Perdón",
+      "emoji": "🙏",
+      "category": "basic",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Mantén pecho y rostro visibles", "Graba movimiento completo si aplica", "Usa varias personas"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "chest",
+      "requires_pose": true
+    },
+    {
+      "id": "CON_PERMISO",
+      "name": "Con permiso",
+      "emoji": "🙋",
+      "category": "basic",
+      "difficulty": 3,
+      "two_handed": true,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba ambas manos si aplica", "Incluye el movimiento", "Mantén el cuerpo visible"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, true, true, true, true],
+      "body_zone": "chest",
+      "requires_pose": true,
+      "requires_motion": true,
+      "motion_type": "custom_sequence"
+    },
+    {
+      "id": "BIENVENIDO",
+      "name": "Bienvenido",
+      "emoji": "🏠",
+      "category": "basic",
+      "difficulty": 3,
+      "two_handed": true,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba ambas manos", "Haz la secuencia completa", "Usa distancia normal"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, true, true, true, true],
+      "body_zone": "chest",
+      "requires_pose": true,
+      "requires_motion": true,
+      "motion_type": "custom_sequence"
+    },
+    {
+      "id": "ADIOS",
+      "name": "Adiós",
+      "emoji": "👋",
+      "category": "basic",
+      "difficulty": 1,
+      "two_handed": false,
+      "description": "Expresión básica entrenable.",
+      "tips": ["Graba el movimiento completo", "Mantén la mano frente a cámara", "Varía distancia y luz"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "anywhere",
+      "requires_pose": false,
+      "requires_motion": true,
+      "motion_type": "custom_sequence"
+    },
+    {
+      "id": "ALEGRIA",
+      "name": "Alegría",
+      "emoji": "😊",
+      "category": "feelings",
+      "difficulty": 2,
+      "two_handed": true,
+      "description": "Emoción entrenable.",
+      "tips": ["Graba rostro y torso visibles", "Incluye ambas manos si aplica", "Haz la expresión completa"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, true, true, true, true],
+      "body_zone": "chest",
+      "requires_pose": true
+    },
+    {
+      "id": "INTERES",
+      "name": "Interés",
+      "emoji": "✨",
+      "category": "feelings",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Emoción entrenable.",
+      "tips": ["Graba la postura completa", "Mantén buena luz", "Usa varias personas"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true
+    },
+    {
+      "id": "ENOJO",
+      "name": "Enojo",
+      "emoji": "😠",
+      "category": "feelings",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Emoción entrenable.",
+      "tips": ["Incluye rostro y mano", "No cortes los hombros", "Graba en varios fondos"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true
+    },
+    {
+      "id": "TRISTEZA",
+      "name": "Tristeza",
+      "emoji": "😢",
+      "category": "feelings",
+      "difficulty": 2,
+      "two_handed": false,
+      "description": "Emoción entrenable.",
+      "tips": ["Mantén rostro visible", "Graba el movimiento completo", "Usa varias personas"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true,
+      "requires_motion": true,
+      "motion_type": "custom_sequence"
+    },
+    {
+      "id": "CELOS",
+      "name": "Celos",
+      "emoji": "👀",
+      "category": "feelings",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Emoción entrenable.",
+      "tips": ["Incluye rostro", "Graba movimiento si aplica", "No tapes la mano dominante"],
+      "finger_states": [false, true, true, false, false],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true
+    },
+    {
+      "id": "VERGUENZA",
+      "name": "Vergüenza",
+      "emoji": "😳",
+      "category": "feelings",
+      "difficulty": 3,
+      "two_handed": false,
+      "description": "Emoción entrenable.",
+      "tips": ["Mantén cara y mano visibles", "Graba la secuencia completa", "Usa varias luces"],
+      "finger_states": [false, true, true, true, true],
+      "finger_states_other": [false, false, false, false, false],
+      "body_zone": "face",
+      "requires_pose": true,
+      "requires_motion": true,
+      "motion_type": "custom_sequence"
+    }
+  ]
+}
