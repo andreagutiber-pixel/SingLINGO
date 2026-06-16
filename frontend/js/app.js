@@ -73,7 +73,7 @@ const App = {
     } else if (section === "train") {
       if (!this._collectInited) {
         this._collectInited = true;
-        const country = ["asl","lsc","bsl"].includes(this.currentCountry) ? this.currentCountry : "lsc";
+        const country = this.currentCountry === "lsc" ? this.currentCountry : "lsc";
         const sel = document.getElementById("collect-country-select");
         if (sel) sel.value = country;
         this.collectMode.init(country);

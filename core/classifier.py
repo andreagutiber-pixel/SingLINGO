@@ -46,7 +46,7 @@ SIGNS_DIR = DATA_DIR / "signs"
 MODELS_DIR = DATA_DIR / "models"
 MODELS_DIR.mkdir(exist_ok=True)
 
-SUPPORTED_COUNTRIES = ["asl", "lsc", "bsl"]
+SUPPORTED_COUNTRIES = ["lsc"]
 
 SMOOTH_WINDOW = 3
 

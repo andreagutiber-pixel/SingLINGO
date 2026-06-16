@@ -99,7 +99,7 @@ const ApiClient = {
 };
 
 class WsPredictor {
-  constructor(country = "asl") {
+  constructor(country = "lsc") {
     this.country = country;
     this.ws = null;
     this.onResult = null;

@@ -1,13 +1,11 @@
 # Catalogos de senas
 
-Esta carpeta contiene los catalogos que usa la aplicacion para mostrar y clasificar senas.
+Esta carpeta contiene los catalogos que usa la aplicacion para mostrar y clasificar senas. El alcance de la entrega esta enfocado en LSC.
 
 ## Archivos revisados
 
 | Archivo | Idioma | Cantidad | Categorias |
 |---|---|---:|---|
-| `asl.json` | American Sign Language | 26 | `alphabet`, `words` |
-| `bsl.json` | British Sign Language | 15 | `basic`, `feelings`, `greetings`, `nouns` |
 | `lsc.json` | Lengua de Senas Colombiana | 54 | `alphabet`, `basic`, `feelings`, `words` |
 
 ## Campos principales
@@ -24,4 +22,6 @@ Tambien pueden aparecer campos como `tips`, `description`, `two_handed`, `body_z
 
 ## Validacion realizada
 
-Se reviso que los tres archivos JSON carguen correctamente, que no tengan IDs duplicados y que cada sena incluya los campos basicos necesarios para la aplicacion.
+Se reviso que `lsc.json` cargue correctamente, que no tenga IDs duplicados y que cada sena incluya los campos basicos necesarios para la aplicacion.
+
+Los archivos `asl.json` y `bsl.json` pueden quedar como referencias o datos auxiliares, pero no hacen parte del alcance principal de esta entrega.

@@ -35,7 +35,7 @@ class PredictRequest(BaseModel):
                                                                   description="World landmarks 3D (metros) mano izquierda")
     pose_landmarks: Optional[List[PoseLandmarkPoint]] = Field(default=None, min_length=33, max_length=33,
                                                                description="33 landmarks de cuerpo de PoseLandmarker")
-    country:        str            = Field(default="asl")
+    country:        str            = Field(default="lsc")
     target_sign_id: Optional[str] = Field(default=None)
 
 
