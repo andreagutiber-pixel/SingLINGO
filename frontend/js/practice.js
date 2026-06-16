@@ -214,13 +214,19 @@ class PracticeMode {
     });
 
     document.addEventListener("cameraError", (e) => {
-      this._showCameraPrompt("Error de Cámara", e.detail || "No se pudo acceder a la cámara", false);
+      this._showCameraPrompt(
+        "No pudimos activar la cámara",
+        e.detail
+          ? `Revisa los permisos del navegador y vuelve a intentarlo. Detalle: ${e.detail}`
+          : "Revisa que el navegador tenga permiso para usar la cámara y que ninguna otra aplicación la esté ocupando.",
+        false
+      );
     });
 
     document.addEventListener("mediapipeError", (e) => {
       this._showCameraPrompt(
         "Error de MediaPipe",
-        "No se pudo cargar el modelo de detección. Verifica tu conexión a internet.",
+        "No se pudo cargar el modelo de detección de manos. Verifica tu conexión a internet y recarga la página.",
         false
       );
     });
@@ -283,15 +289,15 @@ class PracticeMode {
     if (!this.mp) {
       this.mp = new MediaPipeHandler();
       this._showCameraPrompt(
-        "Cargando modelo de IA…",
-        "Descargando MediaPipe (~8MB, solo la primera vez). Espera un momento.",
+        "Cargando detección de manos…",
+        "Estamos preparando MediaPipe. La descarga inicial puede tardar unos segundos.",
         false
       );
       const ok = await this.mp.init();
       if (!ok) {
         this._showCameraPrompt(
           "Error de MediaPipe",
-          "No se pudo cargar el modelo de detección. Verifica tu conexión a internet.",
+          "No se pudo cargar el modelo de detección de manos. Verifica tu conexión a internet y recarga la página.",
           false
         );
         return;
@@ -299,8 +305,8 @@ class PracticeMode {
     }
 
     this._showCameraPrompt(
-      "Permitir Cámara",
-      "SignLingo necesita tu cámara para ver tus señas con las manos.",
+      "Permite la cámara",
+      "SingLINGO usa la cámara solo para reconocer tus manos durante la práctica. El video no se guarda.",
       true
     );
     await this.mp.startCamera(this.videoEl);
@@ -402,10 +408,10 @@ class PracticeMode {
     const prompt = document.createElement("div");
     prompt.className = "camera-prompt";
     prompt.innerHTML = `
-      <img class="camera-prompt-icon-img" src="/static/icons/camara_icon.jpeg" alt="camara" />
+      <img class="camera-prompt-icon-img" src="/static/icons/camara_icon.jpeg" alt="Cámara" />
       <h3>${title}</h3>
       <p>${message}</p>
-      ${showBtn ? `<button class="btn btn-primary" id="allow-camera-btn">Iniciar Cámara</button>` : ""}
+      ${showBtn ? `<button class="btn btn-primary" id="allow-camera-btn">Activar cámara</button>` : ""}
     `;
     container.appendChild(prompt);
 
@@ -988,7 +994,7 @@ class PracticeMode {
       } else if (target.description) {
         instrEl.innerHTML = `<span class="instr-tip">• ${target.description}</span>`;
       } else {
-        instrEl.innerHTML = `<span class="instr-tip">• Realiza la seña con la mano derecha frente a la cámara.</span>`;
+        instrEl.innerHTML = `<span class="instr-tip">• Coloca la mano completa frente a la cámara y realiza la seña con calma.</span>`;
       }
     }
 
