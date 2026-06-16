@@ -179,6 +179,19 @@ class SignClassifier:
     def is_two_hand_model(self) -> bool:
         return self.feature_size in (FEATURE_SIZE_TWO_HANDS, FEATURE_SIZE_V6_TWO)
 
+    def model_status(self) -> dict:
+        """Resume la carga del modelo para pruebas rapidas y sustentacion."""
+        path = self._model_path()
+        return {
+            "country": self.country,
+            "model_path": str(path),
+            "model_exists": path.exists(),
+            "loaded": self.is_trained(),
+            "model_version": self._model_version,
+            "feature_size": self.feature_size,
+            "signs_loaded": len(self.signs),
+        }
+
     def train(self, X: np.ndarray, y: np.ndarray, use_mlp: bool = True) -> float:
         """
         Entrena el pipeline con MLPClassifier (por defecto) o SVM (fallback).
